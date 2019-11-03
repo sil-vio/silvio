@@ -1,0 +1,97 @@
+baseurl = "/"
+languageCode = "en-us"
+
+theme = "my-hello-friend-ng"
+
+
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = true
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+[author]
+  name = "Silvio Giannini"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Silvio Giannini"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+  avatar = "GOPHER_MIC_DROP.png"
+  #avatarBorder = "avatar-border.svg"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  [params.logo]
+    logoText     = "$ cd /home/silvio"
+    logoHomeLink = "/"
+
+  
+  [[params.social]]
+    name = "email"
+    url  = "mailto:giannini.silvio@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/sil-vio"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/silvio-giannini-ab272115/"
+
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+[languages]
+  [languages.en]
+    title = "Silvio Giannini"  
+    homeSubtitle = "Software Architect"
+    subtitle = "blog"
+    keywords = "software architect"
+    copyright = "CC BY-NC 4.0"
+    readOtherPosts = "Read other posts"
+    disableKinds = "RSS"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+	# You can create a language based menu
+#    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        identifier = "about"
+#        name = "About"
+#        url = "/about"
+#      [[languages.en.menu.main]]
+#        identifier = "showcase"
+#        name = "Showcase"
+#        url = "/showcase"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
