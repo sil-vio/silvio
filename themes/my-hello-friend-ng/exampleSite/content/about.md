@@ -5,6 +5,7 @@ aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "Hugo Authors"
 +++
+{{< image src="/d.png" alt="djordje atlialp" position="center" style="height:250px;">}}
 
 Hugo is the **world’s fastest framework for building websites**. It is written in Go.
 
