@@ -16,8 +16,3 @@ I am a software architect and team leader. And I love new and exciting projects.
 
 - Robert C. Martin: The Clean Coder: A Code of Conduct for Professional Programmers
 - Robert C. Martin: Clean Code
-- Vaughn Vernon: Domain Driven Design Distilled
-- Frederic Laloux: Reinventing Organizations visuell: Ein illustrierter Leitfaden sinnstiftender Formen der Zusammenarbeit Taschenbuch
-- Dave Thomas: Programming Elixir
-- Tariq Rashid: Neuronale Netze selbst programmieren: Ein verständlicher Einstieg mit Python
-- Philip Ackermann: Professionell entwickeln mit JavaScript: Design, Patterns und Praxistipps für Enterprise-fähigen Code
