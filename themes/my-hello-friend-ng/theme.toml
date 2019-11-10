@@ -1,14 +1,14 @@
 name = "my-hello-friend-ng"
 license = "MIT"
 licenselink = "https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md"
-description = "A simple theme for Hugo. That's it."
+description = "A bicolor theme for Hugo."
 tags = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
 features = ["blog", "shortcode", "syntax highlighting"]
 min_version = 0.1
 
 [author]
   name = "Silvio Giannini"
-  homepage = "https://silvio.onrender.com"
+  homepage = "https://silvio-giannini.it"
   twitter = "https://"
 
 [original]

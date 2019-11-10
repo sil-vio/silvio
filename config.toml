@@ -3,7 +3,7 @@ languageCode = "en-us"
 
 theme = "my-hello-friend-ng"
 
-
+disqusShortname = "silvio-giannini-it"
 
 enableRobotsTXT = true
 enableGitInfo   = true
@@ -28,7 +28,7 @@ disableHugoGeneratorInject = false
   description = "Homepage and blog by Silvio Giannini"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
-  avatar = "GOPHER_MIC_DROP.png"
+  #avatar = "GOPHER_MIC_DROP.png"
   #avatarBorder = "avatar-border.svg"
 
   # Default theme "light" or "dark"
@@ -39,7 +39,7 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
   # Default theme "light" or "dark"
   [params.logo]
-    logoText     = "$ cd /home/silvio"
+    logoText     = "silvio-giannini.it "
     logoHomeLink = "/"
 
   
@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   [languages.en]
     title = "Silvio Giannini"  
     homeSubtitle = "Software Architect"
-    subtitle = "blog"
+    subtitle = ""
     keywords = "software architect"
     copyright = "CC BY-NC 4.0"
     readOtherPosts = "Read other posts"
@@ -92,6 +92,6 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "/about"
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
+    identifier = "article"
+    name       = "Article"
     url        = "/posts"
