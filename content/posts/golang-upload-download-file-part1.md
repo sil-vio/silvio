@@ -154,4 +154,4 @@ curl -vvv -X POST http://127.0.0.1:8080/upload -H 'Content-Type: multipart/form-
 
 As result of the invocation we will find the uploaded file in the go program's folder.
 
-In [part 2] ({{< ref "golang-upload-download-file-part2.md" >}}) we will see how to create the download files service.
+In [part 2] ({{< ref "posts/golang-upload-download-file-part2.md" >}}) we will see how to create the download files service.
