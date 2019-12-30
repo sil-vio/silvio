@@ -32,7 +32,7 @@ disableHugoGeneratorInject = false
   #avatarBorder = "avatar-border.svg"
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   themeColor = "#252627"
 
   # Directory name of your blog content (default is `content/posts`)

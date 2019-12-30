@@ -9,4 +9,4 @@ author: Silvio Giannini
 
 Hi, I am Silvio Giannini.
 
-I am a software architect and a technology enthusiast, currently working on microservices architectures.
+I am a software architect and a technology enthusiast, currently working on microservices architectures. Content on this blog is my own and don't represent my former or current employer.
