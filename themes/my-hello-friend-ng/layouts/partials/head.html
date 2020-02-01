@@ -59,3 +59,9 @@
 {{- if templates.Exists "partials/extra-head.html" -}}
 {{ partial "extra-head.html" . }}
 {{- end }}
+
+{{ range .Params.svelte }}
+<script src="/svelte/{{ . }}.js" defer></script>
+{{ end }}
+
+
